@@ -31,7 +31,7 @@ function projectClick(e) { 
     var containingProject = $(this).closest(".project");
     var description = $(containingProject).find(".project-description");
     if (description.length == 0) {
-       $(containingProject).append("<div class='project-description'><p>Description of the project.</p></div>");
+       $(containingProject).append("<div class='project-description'><p>This is a nice picture.</p></div>");
     } else {
        //description.html("<p>Stop clicking on me! You just did it at " + (new Date()) + "</p>");
        $(description).toggle();
